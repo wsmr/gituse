@@ -9,3 +9,8 @@ or push an existing repository from the command line
 
 git remote add origin Url
 git push -u origin master
+
+git remote show origin
+git remote set-url origin git://github.com/wsmr/Ionic_app_3.git
+git branch
+
