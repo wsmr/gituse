@@ -11,11 +11,15 @@ echo "# Ionic_app_01" >> README.md
 git status<br>
 git branch<br>
 git remote add origin URL
+&nbsp;&nbsp;&nbsp;&nbsp;
 #set a new remote<br>
 git remote -v
+&nbsp;&nbsp;&nbsp;&nbsp;
 #Verify new remote<br>
-git remote set-url origin new.url.here<br>
-
+git remote set-url origin new.url.here
+&nbsp;&nbsp;&nbsp;&nbsp;
+#Instead of removing and re-adding
+<br>
 git fetch && git checkout GIT_BRANCH_NAME<br>
 
 git init
