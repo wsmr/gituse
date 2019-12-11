@@ -8,13 +8,13 @@ Get started by creating a new file or uploading an existing file. We recommend e
 
 echo "# Ionic_app_01" >> README.md
 
-git status
-git branch
-git remote add origin URL
-#set a new remote
-git remote -v
-#Verify new remote
-git fetch && git checkout GIT_BRANCH_NAME
+git status<br>
+git branch<br>
+git remote add origin URL<br>
+#set a new remote<br>
+git remote -v<br>
+#Verify new remote<br>
+git fetch && git checkout GIT_BRANCH_NAME<br>
 
 git init
 
