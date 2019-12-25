@@ -16,7 +16,7 @@ git remote add origin URL
 git remote -v
 &nbsp;&nbsp;&nbsp;&nbsp;
 #Verify new remote<br>
-git remote set-url origin new.url.here
+git remote set-url origin URL
 &nbsp;&nbsp;&nbsp;&nbsp;
 #Instead of removing and re-adding
 <br>
