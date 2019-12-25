@@ -18,7 +18,7 @@ git remote -v
 #Verify new remote<br>
 git remote set-url origin URL
 &nbsp;&nbsp;&nbsp;&nbsp;
-#Instead of removing and re-adding
+#Instead of removing and re-adding - NEW URL
 <br>
 git fetch && git checkout GIT_BRANCH_NAME<br>
 
