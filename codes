@@ -17,3 +17,12 @@ remote set-url origin https://github.com/wsmr/Ionic_app_3.git
 
 git branch
 
+
+git config --global user.name "YOUR_USERNAME"
+git config --global user.name
+
+git config --global user.email "your_email_address@example.com"
+git config --global user.email
+
+// Permission denied (publickey) || Git push origin master Error solved
+https://www.youtube.com/watch?v=I03YCDBoCrU
