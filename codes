@@ -26,3 +26,5 @@ git config --global user.email
 
 // Permission denied (publickey) || Git push origin master Error solved
 https://www.youtube.com/watch?v=I03YCDBoCrU
+$ ssh-keygen
+Goto default .ssh file and import it to git SSH key
