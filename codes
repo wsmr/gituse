@@ -24,10 +24,10 @@ git config --global user.name
 git config --global user.email "your_email_address@example.com"
 git config --global user.email
 
-// Permission denied (publickey) || Git push origin master Error solved
-https://www.youtube.com/watch?v=I03YCDBoCrU
 $ ssh-keygen
-Goto default .ssh file and import it to git SSH key
+// Permission denied (publickey) || Git push origin master Error solved
+/** https://www.youtube.com/watch?v=I03YCDBoCrU **/
+/** Goto default .ssh file and import it to git SSH key **/
 
 git stash
 git stash --help
