@@ -35,7 +35,7 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
 
 <br><br>
 #####################################<br>
-show your Git username and email<br>
+Show your Git username and email<br>
 git config user.name<br>
 git config user.email<br>
 git config --list<br>
