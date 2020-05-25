@@ -22,15 +22,15 @@ git remote set-url origin URL
 <br>
 git fetch && git checkout GIT_BRANCH_NAME<br>
 
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/wsmr/Ionic_app_01.git
-git push -u origin master
-…or push an existing repository from the command line
-git remote add origin https://github.com/wsmr/Ionic_app_01.git
-git push -u origin master
-…or import code from another repository
+git init<br>
+git add README.md<br>
+git commit -m "first commit"<br>
+git remote add origin https://github.com/wsmr/Ionic_app_01.git<br>
+git push -u origin master<br>
+…or push an existing repository from the command line<br>
+git remote add origin https://github.com/wsmr/Ionic_app_01.git<br>
+git push -u origin master<br>
+…or import code from another repository<br>
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
 <br><br>
