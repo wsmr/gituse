@@ -48,14 +48,14 @@ git push -u origin master
 
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
-
-
-show your Git username and email<br><br>
+<br><br>
+#####################################<br>
+show your Git username and email<br>
 git config user.name<br>
 git config user.email<br>
-git config --list<br><br><br>
+git config --list<br>
 
-Change your Git username and email<br><br>
+Change your Git username and email<br>
 git config --global user.name "first last"<br>
 git config --global user.email [your email address here]<br>
 
