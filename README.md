@@ -44,3 +44,7 @@ Change your Git username and email<br>
 git config --global user.name "first last"<br>
 git config --global user.email [your email address here]<br>
 
+<br><br>
+#####################################<br>
+list all the files in a commit<br>
+$ git diff-tree --no-commit-id --name-only -r bd61ad98<br>
