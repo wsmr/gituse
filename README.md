@@ -48,3 +48,9 @@ git config --global user.email [your email address here]<br>
 #####################################<br>
 list all the files in a commit<br>
 $ git diff-tree --no-commit-id --name-only -r bd61ad98<br>
+
+<br><br>
+#####################################<br>
+https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls
+git clone https://github.com/username/want-some-java.git
+
