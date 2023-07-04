@@ -57,7 +57,7 @@ git clone git@github.com:username/repo.git<br>
 
 <br><br>
 #####################################<br>
-git remote set-url origin git@github.com:wsmr/IonicAppTests.git<br>
+git remote set-url origin https://github.com/wsmr/IonicAppTests.git<br>
 git add .<br>
 git commit -m "first commit"<br>
 git push -u origin main<br>
