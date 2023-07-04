@@ -54,3 +54,11 @@ $ git diff-tree --no-commit-id --name-only -r bd61ad98<br>
 https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls<br>
 git clone https://github.com/username/want-some-java.git<br>
 git clone git@github.com:username/repo.git<br>
+
+<br><br>
+#####################################<br>
+git remote set-url origin git@github.com:wsmr/IonicAppTests.git<br>
+git add .<br>
+git commit -m "first commit"<br>
+git push -u origin main<br>
+<br><br>
