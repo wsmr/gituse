@@ -62,3 +62,5 @@ git add .<br>
 git commit -m "first commit"<br>
 git push -u origin main<br>
 <br><br>
+
+git rm --cached package-lock.json
