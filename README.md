@@ -64,10 +64,10 @@ git push -u origin main<br>
 
 <br><br>
 #####################################<br>
-Add the package-lock.json name to the .gitignore file and save
-Run git rm --cached package-lock.json
-git add .gitignore
-git commit -m "Ignore package-lock.json"
-git push
+Add the package-lock.json name to the .gitignore file and save<br>
+Run git rm --cached package-lock.json<br>
+git add .gitignore<br>
+git commit -m "Ignore package-lock.json"<br>
+git push<br>
 
 <br><br>
