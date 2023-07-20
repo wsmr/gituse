@@ -61,6 +61,13 @@ git remote set-url origin https://github.com/wsmr/IonicAppTests.git<br>
 git add .<br>
 git commit -m "first commit"<br>
 git push -u origin main<br>
-<br><br>
 
-git rm --cached package-lock.json
+<br><br>
+#####################################<br>
+Add the package-lock.json name to the .gitignore file and save
+Run git rm --cached package-lock.json
+git add .gitignore
+git commit -m "Ignore package-lock.json"
+git push
+
+<br><br>
