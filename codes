@@ -44,7 +44,7 @@ $ git commit -m "commit"
 $ git branch -r
   -> check exists remotely branchs
 $ git checkout branch_name
-  -> if needed to put to new branch $ git checkout -b branch_name
+  -> if needed to put to new branch $ git checkout -b branch_name  # Create new branch and switch to it
 $ git cherry-pick <commit-hash>
   (all conflicts fixed: run "git cherry-pick --continue")
   (use "git cherry-pick --skip" to skip this patch)
