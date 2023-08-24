@@ -10,9 +10,9 @@ echo "# Ionic_app_01" >> README.md
 
 git status<br>
 git branch<br>
-git checkout -  #switch to last branch
-git checkout <branch>  #switch to specified branch
-git checkout -b <new-branch>  #create and switch to new branch
+git checkout -  #switch to last branch<br>
+git checkout <branch>  #switch to specified branch<br>
+git checkout -b <new-branch>  #create and switch to new branch<br>
 git remote add origin URL
 &nbsp;&nbsp;&nbsp;&nbsp;
 #set a new remote<br>
