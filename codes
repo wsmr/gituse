@@ -42,7 +42,7 @@ $ git add .
 $ git status
 $ git commit -m "commit"
 $ git branch -r
-  -> check current branchs
+  -> check exists remotely branchs
 $ git checkout branch_name
   -> if needed to put to new branch $ git checkout -b branch_name
 $ git cherry-pick <commit-hash>
