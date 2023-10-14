@@ -55,4 +55,43 @@ $ git checkout -
 $ git pull
 
 
+/** pull your local project code into a new GitHub repository **/
+
+Initialize the local directory as a Git repository if you haven't already:
+$ git init
+
+Add the remote GitHub repository as a remote called "origin":
+$ git remote add origin https://github.com/<your-username>/<repo-name>.git
+
+Add all your project files to the staging area:
+$ git add .
+
+Commit the files with an initial commit message:
+$ git commit -m "Initial commit"
+
+Push your code to the remote repository on GitHub:
+$ git push -u origin main
+  -> if  ! [rejected]        main -> main (fetch first)
+(because the remote GitHub repository already has commits that your local repository doesn't have)
+
+  The hint says you should pull the changes from GitHub first before pushing:
+  $ git pull origin main
+
+  After that push your local commits up to GitHub:
+  $ git push origin main
+      -> if   ! [rejected]        main -> main (non-fast-forward)
+     * branch            main       -> FETCH_HEAD
+     * [new branch]      main       -> origin/main
+    (Git is still detecting that you have divergent branches between your local and remote repositories)
+    you need to explicitly configure how you want Git to reconcile the differences when pulling.
+    The main options are:
+    --rebase - Rebase your local changes on top of the updated remote branch. This replays your commits after fetching.
+    --merge - Merge the remote changes into your local branch. This creates a merge commit.
+    --ff-only - Only allow fast-forward updates where your local branch has no additional commits
+
+    fetch the remote changes, then replay your local commits on top. This avoids any merge commits.
+    $ git pull --rebase origin main
+
+    Once the rebase completes cleanly, you should then be able to push your local branch to the remote:
+    $ git push origin main
 
